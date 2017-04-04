@@ -1,0 +1,296 @@
+/*-------------------------------------*/
+
+/*----------- content-main ------------*/
+
+/*-------------------------------------*/
+
+.content-main-in-page {
+
+  width: 1206px;
+
+  height: auto;
+
+  margin: 0 auto;
+
+  position: relative;
+
+}
+
+.content-main-in-page .bread-crumbs {
+
+  margin: 10px 0 12px;
+
+}
+
+.content-main-in-page .bread-crumbs a {
+
+  font-family: "MyriadPro-Regular";
+
+  color: #f1ecd7;
+
+  font-size: 14px;
+
+  font-weight: 400;
+
+  line-height: 18px;
+
+  text-shadow: 0 2px 9px #9d7151;
+
+  text-decoration: none;
+
+}
+
+.content-main-in-page .bread-crumbs a:hover {
+
+  text-decoration: underline;
+
+}
+
+.content-main-in-page .bread-crumbs .active {
+
+  color: white;
+
+}
+
+.content-main-in-page .in-page-contant {
+
+  background-color: #f1ecd7;
+
+  box-shadow: 0 2px 5px #9d7151;
+
+  overflow: hidden;
+
+}
+
+.content-main-in-page .in-page-contant .tittle-block {
+
+  background-color: #e4d0a0;
+
+  background-image: -webkit-linear-gradient(bottom, #f6e7c3 0%, #e4d0a0 100%);
+
+  background-image: linear-gradient(to top, #f6e7c3 0%, #e4d0a0 100%);
+
+  box-shadow: 0 2px 5px #9d7151;
+
+  margin-bottom: 30px;
+
+}
+
+.content-main-in-page .in-page-contant .tittle-block p {
+
+  float: right;
+
+  font-family: "MyriadPro-Regular";
+
+  color: #503725;
+
+  font-size: 14px;
+
+  font-weight: 400;
+
+  line-height: 18px;
+
+  font-style: italic;
+
+  padding: 9px 13px 0 0;
+
+}
+
+.content-main-in-page .in-page-contant .tittle-block h2 {
+
+  font-family: "MyriadPro-Regular";
+
+  color: #503725;
+
+  font-size: 18px;
+
+  font-weight: 700;
+
+  line-height: 18px;
+
+  padding: 8px 0px 8px 11px;
+
+  /*text-transform: uppercase;*/
+
+}
+
+.content-main-in-page .in-page-contant img {
+
+  width: 556px;
+
+  #height: 417px;
+
+  height: auto;
+
+  box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.75);
+
+  clear: both;
+
+  margin: 3px 14px 15px 38px;
+
+}
+
+.content-main-in-page .in-page-contant .second-photo {
+
+  margin: 3px 14px 15px 0px;
+
+}
+
+.content-main-in-page .in-page-contant h3 {
+
+  font-family: "MyriadPro-Regular";
+
+  color: #503725;
+
+  font-size: 14px;
+
+  font-weight: 700;
+
+  line-height: 18px;
+
+  text-transform: uppercase;
+
+  padding: 20px 20px 20px 40px;
+
+  overflow: hidden;
+
+}
+
+.content-main-in-page .in-page-contant h3 span {
+
+  text-transform: none;
+
+}
+
+.content-main-in-page .in-page-contant h3:nth-child(4) {
+
+  padding-top: 22px;
+
+}
+
+.content-main-in-page .in-page-contant p {
+
+  font-family: "MyriadPro-Regular";
+
+  color: #503725;
+
+  font-size: 14px;
+
+  font-weight: 400;
+
+  line-height: 18px;
+
+  padding: 0px 40px 17px 40px;
+
+}
+
+.content-main-in-page .in-page-contant p span {
+
+  font-weight: 700;
+
+  font-style: italic;
+
+}
+
+.content-main-in-page .in-page-contant p i {
+
+  font-style: italic;
+
+}
+
+.content-main-in-page .in-page-contant a {
+
+  display: inline-block;
+
+  background-color: #f3ae4c;
+
+  box-shadow: 0 2px 5px #9d7151, inset 0 1px 2px rgba(24, 23, 24, 0.35);
+
+  background-image: url(../images/more-about-bg.jpg);
+
+  background-repeat: no-repeat;
+
+  width: 250px;
+
+  height: 31px;
+
+  background-position: 0px 0px;
+
+  font-family: "MyriadPro-Regular";
+
+  color: #503725;
+
+  font-size: 14px;
+
+  font-weight: 400;
+
+  line-height: 18px;
+
+  background-size: 100% 100%;
+
+  line-height: 31px;
+
+  text-transform: uppercase;
+
+  text-decoration: none;
+
+  text-align: center;
+
+  margin: 41px 9px 31px 350px;
+
+}
+
+.content-main-in-page .in-page-contant a:last-child {
+
+  margin-left: 0px;
+
+}
+
+.content-main-in-page .in-page-contant a:hover {
+
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.5);
+
+  -webkit-transition: 0.2s;
+
+          transition: 0.2s;
+
+  text-decoration: underline;
+
+}
+
+.content-main-in-page .in-page-contant a:not(:hover) {
+
+  -webkit-transition: 0.2s;
+
+          transition: 0.2s;
+
+}
+
+.content-main-in-page .in-page-contant a:active {
+
+  box-shadow: 0 2px 5px rgba(157, 113, 81, 0.75);
+
+}
+
+.content-main-in-page .about-contant:after {
+
+  content: '';
+
+  position: absolute;
+
+  bottom: 88px;
+
+  left: 50%;
+
+  margin-left: -564px;
+
+  width: 1128px;
+
+  height: 1px;
+
+  background-color: #eddeb5;
+
+}
+
+
+/*# sourceMappingURL=in-page.css.map */

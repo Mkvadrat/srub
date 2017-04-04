@@ -1,0 +1,171 @@
+2016-10-24 14:22:57 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 39
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 59
+LINE: 80
+LINE: 99
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 25
+LINE: 31
+----------------------------------------------------------------
+MOD: NewsPostsSystem
+FILE: admin/view/template/common/menu.tpl
+CODE: <li><a href="<?php echo $information; ?>"><?php echo $text_information; ?></a></li>
+LINE: 21
+CODE: <li><a href="<?php echo $information; ?>"><?php echo $text_information; ?></a></li>
+LINE: 21
+FILE: admin/controller/common/menu.php
+CODE: $data['feed'] = $this->url->link('extension/feed', 'token=' . $this->session->data['token'], 'SSL');
+LINE: 135
+CODE: $data['feed'] = $this->url->link('extension/feed', 'token=' . $this->session->data['token'], 'SSL');
+LINE: 135
+FILE: catalog/controller/common/seo_url.php
+CODE: if ($url[0] == 'information_id') {
+LINE: 44
+CODE: } elseif (isset($this->request->get['information_id'])) {
+LINE: 69
+CODE: if (($data['route'] == 'product/product' && $key == 'product_id') || (($data['route'] == 'product/manufacturer/info' || $data['route'] == 'product/product') && $key == 'manufacturer_id') || ($data['route'] == 'information/information' && $key == 'information_id')) {
+LINE: 91
+CODE: if ($url[0] == 'information_id') {
+LINE: 49
+CODE: } elseif (isset($this->request->get['information_id'])) {
+LINE: 78
+CODE: if (($data['route'] == 'product/product' && $key == 'product_id') || (($data['route'] == 'product/manufacturer/info' || $data['route'] == 'product/product') && $key == 'manufacturer_id') || ($data['route'] == 'information/information' && $key == 'information_id')) {
+NOT FOUND!
+CODE: if ($query->row['query'] && $url[0] != 'information_id' && $url[0] != 'manufacturer_id' && $url[0] != 'category_id' && $url[0] != 'product_id') {
+LINE: 53
+----------------------------------------------------------------
+2016-10-25 12:18:22 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 39
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 59
+LINE: 80
+LINE: 99
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 25
+LINE: 31
+----------------------------------------------------------------
+MOD: NewsPostsSystem
+FILE: admin/view/template/common/menu.tpl
+CODE: <li><a href="<?php echo $information; ?>"><?php echo $text_information; ?></a></li>
+LINE: 21
+CODE: <li><a href="<?php echo $information; ?>"><?php echo $text_information; ?></a></li>
+LINE: 21
+FILE: admin/controller/common/menu.php
+CODE: $data['feed'] = $this->url->link('extension/feed', 'token=' . $this->session->data['token'], 'SSL');
+LINE: 136
+CODE: $data['feed'] = $this->url->link('extension/feed', 'token=' . $this->session->data['token'], 'SSL');
+LINE: 136
+FILE: catalog/controller/common/seo_url.php
+CODE: if ($url[0] == 'information_id') {
+LINE: 44
+CODE: } elseif (isset($this->request->get['information_id'])) {
+LINE: 69
+CODE: if (($data['route'] == 'product/product' && $key == 'product_id') || (($data['route'] == 'product/manufacturer/info' || $data['route'] == 'product/product') && $key == 'manufacturer_id') || ($data['route'] == 'information/information' && $key == 'information_id')) {
+LINE: 91
+CODE: if ($url[0] == 'information_id') {
+LINE: 49
+CODE: } elseif (isset($this->request->get['information_id'])) {
+LINE: 78
+CODE: if (($data['route'] == 'product/product' && $key == 'product_id') || (($data['route'] == 'product/manufacturer/info' || $data['route'] == 'product/product') && $key == 'manufacturer_id') || ($data['route'] == 'information/information' && $key == 'information_id')) {
+NOT FOUND!
+CODE: if ($query->row['query'] && $url[0] != 'information_id' && $url[0] != 'manufacturer_id' && $url[0] != 'category_id' && $url[0] != 'product_id') {
+LINE: 53
+----------------------------------------------------------------
+2016-10-27 6:30:45 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 39
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 59
+LINE: 80
+LINE: 99
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 25
+LINE: 31
+----------------------------------------------------------------
+MOD: NewsPostsSystem
+FILE: admin/view/template/common/menu.tpl
+CODE: <li><a href="<?php echo $information; ?>"><?php echo $text_information; ?></a></li>
+LINE: 21
+CODE: <li><a href="<?php echo $information; ?>"><?php echo $text_information; ?></a></li>
+LINE: 21
+FILE: admin/controller/common/menu.php
+CODE: $data['feed'] = $this->url->link('extension/feed', 'token=' . $this->session->data['token'], 'SSL');
+LINE: 136
+CODE: $data['feed'] = $this->url->link('extension/feed', 'token=' . $this->session->data['token'], 'SSL');
+LINE: 136
+FILE: catalog/controller/common/seo_url.php
+CODE: if ($url[0] == 'information_id') {
+LINE: 44
+CODE: } elseif (isset($this->request->get['information_id'])) {
+LINE: 69
+CODE: if (($data['route'] == 'product/product' && $key == 'product_id') || (($data['route'] == 'product/manufacturer/info' || $data['route'] == 'product/product') && $key == 'manufacturer_id') || ($data['route'] == 'information/information' && $key == 'information_id')) {
+LINE: 91
+CODE: if ($url[0] == 'information_id') {
+LINE: 49
+CODE: } elseif (isset($this->request->get['information_id'])) {
+LINE: 78
+CODE: if (($data['route'] == 'product/product' && $key == 'product_id') || (($data['route'] == 'product/manufacturer/info' || $data['route'] == 'product/product') && $key == 'manufacturer_id') || ($data['route'] == 'information/information' && $key == 'information_id')) {
+NOT FOUND!
+CODE: if ($query->row['query'] && $url[0] != 'information_id' && $url[0] != 'manufacturer_id' && $url[0] != 'category_id' && $url[0] != 'product_id') {
+LINE: 53
+----------------------------------------------------------------
+2016-10-27 11:53:37 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 39
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 59
+LINE: 80
+LINE: 99
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 25
+LINE: 31
+----------------------------------------------------------------
+2016-11-03 13:41:32 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 39
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 59
+LINE: 80
+LINE: 99
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 25
+LINE: 31
+----------------------------------------------------------------

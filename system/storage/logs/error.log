@@ -1,0 +1,80 @@
+2017-03-17 12:43:58 - PHP Notice:  Undefined variable: url in /home/seomax/public_html/tek/catalog/controller/information/prices.php on line 93
+2017-03-20 6:20:29 - PHP Notice:  Undefined variable: albums in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/category_prices.tpl on line 61
+2017-03-20 6:20:29 - PHP Warning:  Invalid argument supplied for foreach() in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/category_prices.tpl on line 61
+2017-03-20 6:56:28 - PHP Notice:  Undefined variable: albums in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/category_prices.tpl on line 61
+2017-03-20 6:56:28 - PHP Warning:  Invalid argument supplied for foreach() in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/category_prices.tpl on line 61
+2017-03-20 6:58:16 - PHP Notice:  Undefined variable: albums in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/category_prices.tpl on line 61
+2017-03-20 6:58:16 - PHP Warning:  Invalid argument supplied for foreach() in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/category_prices.tpl on line 61
+2017-03-20 7:12:51 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:04:46 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:05:21 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:08:29 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:08:53 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:09:29 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:09:29 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:09:35 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:09:35 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:10:21 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:11:33 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:11:35 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:11:36 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:11:44 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:12:50 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:12:51 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:13:02 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:13:31 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:16:13 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:16:40 - PHP Notice:  Undefined variable: albums in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/category_prices.tpl on line 61
+2017-03-20 8:16:40 - PHP Warning:  Invalid argument supplied for foreach() in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/category_prices.tpl on line 61
+2017-03-20 8:16:43 - PHP Notice:  Undefined variable: albums in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/category_prices.tpl on line 61
+2017-03-20 8:16:43 - PHP Warning:  Invalid argument supplied for foreach() in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/category_prices.tpl on line 61
+2017-03-20 8:18:36 - PHP Notice:  Undefined variable: albums in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/category_prices.tpl on line 56
+2017-03-20 8:23:13 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:23:51 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:23:56 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:24:55 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:26:06 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:28:02 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:31:08 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:34:14 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:34:19 - PHP Notice:  Undefined variable: url in /home/seomax/public_html/tek/catalog/controller/information/prices.php on line 93
+2017-03-20 8:34:32 - PHP Notice:  Undefined variable: url in /home/seomax/public_html/tek/catalog/controller/information/prices.php on line 93
+2017-03-20 8:35:02 - PHP Notice:  Undefined variable: url in /home/seomax/public_html/tek/catalog/controller/information/prices.php on line 93
+2017-03-20 8:36:25 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:36:37 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:38:03 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:38:24 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:42:12 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:42:33 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:43:29 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:43:47 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:44:02 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:46:22 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:47:00 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:47:24 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:47:30 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:48:07 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:49:11 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:49:46 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:50:12 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:51:07 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:52:01 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:52:24 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:52:26 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:52:27 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:52:35 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:52:39 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:52:42 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:52:51 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:52:54 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:53:36 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:53:40 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:53:54 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:54:01 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:54:58 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:56:42 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-20 8:57:01 - PHP Notice:  Undefined variable: back_prices in /home/seomax/public_html/tek/catalog/view/theme/srub/template/information/lumber_info.tpl on line 53
+2017-03-21 20:15:33 - PHP Warning:  Invalid argument supplied for foreach() in /home/seomax/public_html/tek/admin/controller/extension/prices.php on line 424
+2017-03-23 14:00:44 - PHP Notice:  Undefined variable: all_object in /home/seomax/public_html/tek/catalog/view/theme/srub/template/error/not_found.tpl on line 25
+2017-03-23 14:00:44 - PHP Notice:  Undefined variable: gallery in /home/seomax/public_html/tek/catalog/view/theme/srub/template/error/not_found.tpl on line 36
+2017-03-28 8:10:03 - PHP Warning:  session_start(): open(/tmp/sess_ldgvoop3don6n4lr0n4fi1d750, O_RDWR) failed: No such file or directory (2) in /var/www/vhosts/3331141.xeovo.ml/public_html/srub/system/library/session.php on line 21

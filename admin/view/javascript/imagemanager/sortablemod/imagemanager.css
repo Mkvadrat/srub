@@ -1,0 +1,8 @@
+.imagemanager{
+	width:40px;
+	cursor:grab;
+}
+
+.grabbing{
+	cursor:grabbing;
+}

@@ -1,0 +1,114 @@
+/*-------------------------------------*/
+/*----------- content-main ------------*/
+/*-------------------------------------*/
+.content-main-contacts {
+  width: 1206px;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+}
+.content-main-contacts .bread-crumbs {
+  margin: 10px 0 12px;
+}
+.content-main-contacts .bread-crumbs a {
+  font-family: "MyriadPro-Regular";
+  color: #f1ecd7;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  text-shadow: 0 2px 9px #9d7151;
+  text-decoration: none;
+}
+.content-main-contacts .bread-crumbs a:hover {
+  text-decoration: underline;
+}
+.content-main-contacts .bread-crumbs .active {
+  color: white;
+}
+.content-main-contacts .contacts-contant {
+  background-color: #f1ecd7;
+  box-shadow: 0 2px 5px #9d7151;
+  overflow: hidden;
+}
+.content-main-contacts .contacts-contant .tittle-block {
+  background-color: #e4d0a0;
+  background-image: -webkit-linear-gradient(bottom, #f6e7c3 0%, #e4d0a0 100%);
+  background-image: linear-gradient(to top, #f6e7c3 0%, #e4d0a0 100%);
+  box-shadow: 0 2px 5px #9d7151;
+  margin-bottom: 4px;
+}
+.content-main-contacts .contacts-contant .tittle-block p {
+  float: right;
+  font-family: "MyriadPro-Regular";
+  color: #503725;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  font-style: italic;
+  padding: 9px 13px 0 0;
+}
+.content-main-contacts .contacts-contant .tittle-block h2 {
+  font-family: "MyriadPro-Regular";
+  color: #503725;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  padding: 8px 0px 8px 11px;
+  text-transform: uppercase;
+}
+.content-main-contacts .contacts-contant .map {
+  position: relative;
+  float: right;
+  width: 550px;
+  height: auto;
+  box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.75);
+  clear: both;
+  margin: 58px 40px 24px 0px;
+}
+.content-main-contacts .contacts-contant .map h3 {
+  position: absolute;
+  top: -37px;
+  left: -1px;
+  font-family: "MyriadPro-Regular";
+  color: #503725;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  text-transform: uppercase;
+  padding: 0;
+  font-style: normal;
+}
+.content-main-contacts .contacts-contant h3 {
+  font-family: "MyriadPro-Regular";
+  color: #503725;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  text-transform: uppercase;
+  padding: 24px 20px 0px 33px;
+  overflow: hidden;
+  font-style: italic;
+}
+.content-main-contacts .contacts-contant table {
+  margin-left: 33px;
+  margin-bottom: 60px;
+}
+.content-main-contacts .contacts-contant table tr td {
+  font-family: "MyriadPro-Regular";
+  color: #503725;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+}
+.content-main-contacts .contacts-contant table tr td:first-child {
+  width: 110px;
+  font-family: "MyriadPro-Regular";
+  color: #503725;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  font-style: italic;
+  padding-top: 35px;
+}
+
+/*# sourceMappingURL=contacts.css.map */

@@ -1,0 +1,214 @@
+/*-------------------------------------*/
+
+/*----------- content-main ------------*/
+
+/*-------------------------------------*/
+
+.content-main-price-in {
+
+  width: 1206px;
+
+  height: auto;
+
+  margin: 0 auto;
+
+  position: relative;
+
+  margin-bottom: -24px;
+
+}
+
+.content-main-price-in .price-contant {
+
+  position: relative;
+
+  overflow: hidden;
+
+}
+
+.content-main-price-in .price-contant .tittle-block {
+
+  background-color: #e4d0a0;
+
+  background-image: -webkit-linear-gradient(bottom, #f6e7c3 0%, #e4d0a0 100%);
+
+  background-image: linear-gradient(to top, #f6e7c3 0%, #e4d0a0 100%);
+
+  box-shadow: 0 2px 5px #9d7151;
+
+  margin-bottom: 15px;
+
+}
+
+.content-main-price-in .price-contant .tittle-block h2 {
+
+  font-family: "MyriadPro-Regular";
+
+  color: #503725;
+
+  font-size: 18px;
+
+  font-weight: 700;
+
+  line-height: 18px;
+
+  padding: 8px 0px 8px 11px;
+
+  /*text-transform: uppercase;*/
+
+  margin-top: 10px;
+
+}
+
+.content-main-price-in .price-contant .tittle-block a {
+
+  font-family: "MyriadPro-Regular";
+
+  color: #503725;
+
+  font-size: 18px;
+
+  font-weight: 400;
+
+  line-height: 18px;
+
+  font-style: italic;
+
+  position: relative;
+
+  top: 7px;
+
+  right: 10px;
+
+  float: right;
+
+}
+
+.content-main-price-in .price-contant .tittle-block a:hover {
+
+  font-size: 20px;
+
+  text-decoration: underline;
+
+  -webkit-transition: 0.3s;
+
+          transition: 0.3s;
+
+}
+
+.content-main-price-in .price-contant .tittle-block a:not(:hover) {
+
+  -webkit-transition: 0.3s;
+
+          transition: 0.3s;
+
+}
+
+.content-main-price-in .price-contant .cont-404 {
+
+  text-align: center;
+
+}
+
+.content-main-price-in .price-contant .cont-404 img {
+
+  margin-top: 33px;
+
+  margin-bottom: 33px;
+
+}
+
+.content-main-price-in .price-contant .cont-404 p {
+
+  font-family: "MyriadPro-Regular";
+
+  color: #503725;
+
+  font-size: 31px;
+
+  font-weight: 700;
+
+  line-height: 18px;
+
+  text-transform: uppercase;
+
+  padding-bottom: 40px;
+
+}
+
+.content-main-price-in .price-contant .cont-404 a {
+
+  display: inline-block;
+
+  background-color: #f3ae4c;
+
+  box-shadow: 0 2px 5px #9d7151, inset 0 1px 2px rgba(24, 23, 24, 0.35);
+
+  background-image: url(../images/more-about-bg.jpg);
+
+  background-repeat: no-repeat;
+
+  width: 250px;
+
+  height: 31px;
+
+  background-position: 0px 0px;
+
+  font-family: "MyriadPro-Regular";
+
+  color: #503725;
+
+  font-size: 14px;
+
+  font-weight: 400;
+
+  line-height: 18px;
+
+  background-size: 100% 100%;
+
+  line-height: 31px;
+
+  text-transform: uppercase;
+
+  text-decoration: none;
+
+  text-align: center;
+
+  margin: 0px 9px 45px 0px;
+
+}
+
+.content-main-price-in .price-contant .cont-404 a:last-child {
+
+  margin-left: 0px;
+
+}
+
+.content-main-price-in .price-contant .cont-404 a:hover {
+
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.5);
+
+  -webkit-transition: 0.2s;
+
+          transition: 0.2s;
+
+  text-decoration: underline;
+
+}
+
+.content-main-price-in .price-contant .cont-404 a:not(:hover) {
+
+  -webkit-transition: 0.2s;
+
+          transition: 0.2s;
+
+}
+
+.content-main-price-in .price-contant .cont-404 a:active {
+
+  box-shadow: 0 2px 5px rgba(157, 113, 81, 0.75);
+
+}
+
+
+/*# sourceMappingURL=404.css.map */
