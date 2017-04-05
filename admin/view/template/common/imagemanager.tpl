@@ -36,13 +36,14 @@ $(document).ready(function() {
 				$.each(files, function(item, file) {
 					if ((file.read && file.hash)) {
 						console.log(file.url);
-						parent.addImages(file.url, fm.path(file.hash), item);
-						$('#modal-image').modal('hide');
-						/*$.ajax({
+						//parent.addImages(file.url, fm.path(file.hash), item);
+						//$('#modal-image').modal('hide');
+						$.ajax({
 							url: 'index.php?route=common/imagemanager/getTmb&thumb=' + encodeURIComponent(fm.path(file.hash)) + '&token=' + getURLVar('token'),
 							dataType: 'json',
+							async: false,
 							success: function(data) {
-								html  = '  <tr id="image-row' + image_row + '">';
+								/*html  = '  <tr id="image-row' + image_row + '">';
 								html += '  <td class="text-left"><a href="" id="thumb-image' + image_row + '" data-toggle="image" class="img-thumbnail" data-original-title="" title=""><img src="' + data.thumb + '" alt="" title="" data-placeholder=""><input type="hidden" name="product_image[' + image_row + '][image]" value="' + fm.path(file.hash) + '" id="input-image' + image_row + '"></a></td>';
 								html += '  <td class="text-right"><input type="text" name="product_image[' + image_row + '][sort_order]" value="" placeholder="Sort Order" class="form-control"></td>';
 								html += '  <td class="text-left"><button type="button" onclick="$(\'#image-row' + image_row + '\').remove();" data-toggle="tooltip" title="Remove" class="btn btn-danger"><i class="fa fa-minus-circle"></i></button></td>';
@@ -51,13 +52,13 @@ $(document).ready(function() {
 
 								image_row++;
 
-								$('#modal-image').modal('hide');
+								$('#modal-image').modal('hide');*/
 
-								parent.addImages(data.thumb, fm.path(file.hash));
+								parent.addImages(data.thumb, fm.path(file.hash), item);
 
 								$('#modal-image').modal('hide');
 							}
-						});*/
+						});
 					}
 				});
 			}else{
