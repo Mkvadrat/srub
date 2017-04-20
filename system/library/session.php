@@ -18,7 +18,7 @@ class Session {
 			}
 
 			session_set_cookie_params(0, '/');
-			session_save_path(realpath(dirname($_SERVER['DOCUMENT_ROOT']) . '/../tmp')); session_start();
+			session_start();
 		}
 
 		if (!isset($_SESSION[$key])) {

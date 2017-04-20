@@ -60,11 +60,11 @@
                     <img class="logo-in-footer" src="catalog/view/theme/srub/images/logo-in-footer.png" alt="">
                 </a>
 
-                <p>Головное представительство</p>
+                <!--<p>Головное представительство</p>
 
                 <p>ООО “КУБАНЬСТРОЙДОМ”</p>
 
-                <p>kubansrub.ru</p>
+                <p>kubansrub.ru</p>-->
             </div>
 
             <div class="footer-second-column">
