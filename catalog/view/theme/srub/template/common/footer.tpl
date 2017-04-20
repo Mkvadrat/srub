@@ -56,9 +56,9 @@
                     <li><a href="">каркасное строительство<br>деревянных домов</a></li>
                 </ul>-->
 
-                <a href="kubansrub.ru">
+                <!--<a href="kubansrub.ru">
                     <img class="logo-in-footer" src="catalog/view/theme/srub/images/logo-in-footer.png" alt="">
-                </a>
+                </a>-->
 
                 <!--<p>Головное представительство</p>
 
