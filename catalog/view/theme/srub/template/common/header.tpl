@@ -19,219 +19,205 @@
 
 	<base href="<?php echo $base; ?>" />
 
-	<meta name="viewport" content="width=1320">
-
-
-
-	<meta name="format-detection" content="telephone=no">
-
-	<?php if ($description) { ?>
-
-	<meta name="description" content="<?php echo $description; if (isset($_GET['page'])) { echo " - ". ((int) $_GET['page'])." ".$text_page;} ?>" />
-
-	<?php } ?>
-
-	<?php if ($keywords) { ?>
-
-	<meta name="keywords" content= "<?php echo $keywords; ?>" />
-
-	<?php } ?>
-
-	<meta property="og:title" content="<?php echo $title; if (isset($_GET['page'])) { echo " - ". ((int) $_GET['page'])." ".$text_page;} ?>" />
-
-	<meta property="og:type" content="website" />
-
-	<meta property="og:url" content="<?php echo $og_url; ?>" />
-
-	<?php if ($og_image) { ?>
-
-	<meta property="og:image" content="<?php echo $og_image; ?>" />
-
-	<?php } else { ?>
-
-	<meta property="og:image" content="<?php echo $logo; ?>" />
-
-	<?php } ?>
-
-	<meta property="og:site_name" content="<?php echo $name; ?>" />
-
-  <!-- Bootstrap -->
-
-  <!--<link href="css/bootstrap.css" rel="stylesheet">
-
-  <script src="js/bootstrap.min.js"></script>-->
-
-
-
-  <link rel="stylesheet" href="catalog/view/theme/srub/js/owl-carousel/owl.carousel.css">
-
-  <link rel="stylesheet" href="catalog/view/theme/srub/js/owl-carousel/owl.theme.css">
-
-
-
-  <link rel="stylesheet" href="catalog/view/theme/srub/css/reset.css">
-
-  <link rel="stylesheet" href="catalog/view/theme/srub/css/fonts.css">
-
-  <link rel="stylesheet" href="catalog/view/theme/srub/css/slider-pro.css">
-
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-
-
-
-  <link rel="stylesheet" href="catalog/view/theme/srub/css/3D-slider.css">
-
-  <link rel="stylesheet" href="catalog/view/theme/srub/css/main.css">
-
-  <link rel="stylesheet" href="catalog/view/theme/srub/css/in-page.css">
-
-  <link rel="stylesheet" href="catalog/view/theme/srub/css/in-page-list.css">
-
-  <link rel="stylesheet" href="catalog/view/theme/srub/css/price-in.css">
-
-  <link rel="stylesheet" href="catalog/view/theme/srub/css/contacts.css">
-
-  <link rel="stylesheet" href="catalog/view/theme/srub/css/projects.css">
-
-  <link rel="stylesheet" href="catalog/view/theme/srub/css/about.css">
-
-  <link rel="stylesheet" href="catalog/view/theme/srub/css/projects-in.css">
-
-  <link rel="stylesheet" href="catalog/view/theme/srub/css/price.css">
-
-  <link rel="stylesheet" href="catalog/view/theme/srub/css/404.css">
-
-  <link rel="stylesheet" href="catalog/view/theme/srub/css/search.css">
-  
-  <!--Favicon-->
-  <link rel="apple-touch-icon" sizes="57x57" href="catalog/view/theme/srub/favicons/apple-touch-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="catalog/view/theme/srub/favicons/apple-touch-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="catalog/view/theme/srub/favicons/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="catalog/view/theme/srub/favicons/apple-touch-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="catalog/view/theme/srub/favicons/apple-touch-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="catalog/view/theme/srub/favicons/apple-touch-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="catalog/view/theme/srub/favicons/apple-touch-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="catalog/view/theme/srub/favicons/apple-touch-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="catalog/view/theme/srub/favicons/apple-touch-icon-180x180.png">
-  <link rel="icon" type="image/png" href="catalog/view/theme/srub/favicons/favicon-32x32.png" sizes="32x32">
-  <link rel="icon" type="image/png" href="catalog/view/theme/srub/favicons/favicon-194x194.png" sizes="194x194">
-  <link rel="icon" type="image/png" href="catalog/view/theme/srub/favicons/android-chrome-192x192.png" sizes="192x192">
-  <link rel="icon" type="image/png" href="catalog/view/theme/srub/favicons/favicon-16x16.png" sizes="16x16">
-  <link rel="manifest" href="catalog/view/theme/srub/favicons/manifest.json">
-  <link rel="mask-icon" href="catalog/view/theme/srub/favicons/safari-pinned-tab.svg" color="#5bbad5">
-  <meta name="msapplication-TileColor" content="#00aba9">
-  <meta name="msapplication-TileImage" content="catalog/view/theme/srub/favicons/mstile-144x144.png">
-  <meta name="theme-color" content="#ffffff">
-
-  <script type="text/javascript" src="catalog/view/theme/srub/js/modernizr.custom.53451.js"></script>
-
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-
-  <!--<script src="catalog/view/theme/srub/js/jquery-3.1.0.min.js"></script>-->
-
-  <script src="catalog/view/javascript/jquery/jquery-2.1.1.min.js" type="text/javascript"></script>
-
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-
-  <script type="text/javascript" src="catalog/view/theme/srub/js/jquery.gallery.js"></script>
-
-  <script src="catalog/view/theme/srub/js/scripts.js"></script>
-
-
-
-  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-
-  <!--[if lt IE 9]>
-
-  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-
-  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-
-  <![endif]-->
-
-
-
-  <!-- OWL-CAROUSEL -->
-
-  <script src="catalog/view/theme/srub/js/owl-carousel/owl.carousel.min.js"></script>
-
-
-
-  <script src="catalog/view/theme/srub/js/jquery.sliderPro.js"></script>
-
-
-
-  <!--SLICK CAROUSEL -->
-
-  <script src="catalog/view/theme/srub/js/slick/slick.min.js"></script>
-
-  <link rel="stylesheet" href="catalog/view/theme/srub/js/slick/slick.css">
-
-  <link rel="stylesheet" href="catalog/view/theme/srub/js/slick/slick-theme.css">
-
-
-
-  <!-- FANCYBOX -->
-
-  <link rel="stylesheet" href="catalog/view/theme/srub/js/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
-
-  <script type="text/javascript" src="catalog/view/theme/srub/js/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-
-  <link rel="stylesheet" href="catalog/view/theme/srub/srub/js/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
-
-  <script type="text/javascript" src="catalog/view/theme/srub/js/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
-
-  <script type="text/javascript" src="catalog/view/theme/srub/js/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
-
-  <link rel="stylesheet" href="catalog/view/theme/srub/js/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
-
-  <script type="text/javascript" src="catalog/view/theme/srub/js/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
-
-
-
-  <!-- COLOR BOX -->
-
-  <script src="catalog/view/theme/srub/js/colorbox/jquery.colorbox-min.js"></script>
-
-  <script src="catalog/view/theme/srub/js/colorbox/jquery.colorbox.js"></script>
-
-  <link rel="stylesheet" href="catalog/view/theme/srub/js/colorbox/colorbox.css">
-
-  <!-- SWYPE -->
-
-  <script src="catalog/view/theme/srub/js/jquery.touchSwipe.min.js"></script>
-
-  <script src="catalog/view/theme/srub/js/jquery.touchSwipe.js"></script>
-
-
-
-
-
-  <?php foreach ($styles as $style) { ?>
-
-  <link href="<?php echo $style['href']; ?>" type="text/css" rel="<?php echo $style['rel']; ?>" media="<?php echo $style['media']; ?>" />
-
-  <?php } ?>
-
-  <?php foreach ($links as $link) { ?>
-
-  <link href="<?php echo $link['href']; ?>" rel="<?php echo $link['rel']; ?>" />
-
-  <?php } ?>
-
-  <?php foreach ($scripts as $script) { ?>
-
-  <script src="<?php echo $script; ?>" type="text/javascript"></script>
-
-  <?php } ?>
-
-  <?php foreach ($analytics as $analytic) { ?>
-
-  <?php echo $analytic; ?>
-
-  <?php } ?>
+    <meta name="viewport" content="width=1320">
+    
+    <!--Favicon-->
+    <link rel="apple-touch-icon" sizes="120x120" href="catalog/view/theme/srub/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="catalog/view/theme/srub/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="catalog/view/theme/srub/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="catalog/view/theme/srub/favicon/manifest.json">
+    <link rel="mask-icon" href="catalog/view/theme/srub/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+    
+    <meta name="format-detection" content="telephone=no">
+    
+    <?php if ($description) { ?>
+    
+    <meta name="description" content="<?php echo $description; if (isset($_GET['page'])) { echo " - ". ((int) $_GET['page'])." ".$text_page;} ?>" />
+    
+    <?php } ?>
+    
+    <?php if ($keywords) { ?>
+    
+    <meta name="keywords" content= "<?php echo $keywords; ?>" />
+    
+    <?php } ?>
+    
+    <meta property="og:title" content="<?php echo $title; if (isset($_GET['page'])) { echo " - ". ((int) $_GET['page'])." ".$text_page;} ?>" />
+    
+    <meta property="og:type" content="website" />
+    
+    <meta property="og:url" content="<?php echo $og_url; ?>" />
+    
+    <?php if ($og_image) { ?>
+    
+    <meta property="og:image" content="<?php echo $og_image; ?>" />
+    
+    <?php } else { ?>
+    
+    <meta property="og:image" content="<?php echo $logo; ?>" />
+    
+    <?php } ?>
+    
+    <meta property="og:site_name" content="<?php echo $name; ?>" />
+    
+    <!-- Bootstrap -->
+    
+    <!--<link href="css/bootstrap.css" rel="stylesheet">
+    
+    <script src="js/bootstrap.min.js"></script>-->
+    
+    
+    
+    <link rel="stylesheet" href="catalog/view/theme/srub/js/owl-carousel/owl.carousel.css">
+    
+    <link rel="stylesheet" href="catalog/view/theme/srub/js/owl-carousel/owl.theme.css">
+    
+    
+    
+    <link rel="stylesheet" href="catalog/view/theme/srub/css/reset.css">
+    
+    <link rel="stylesheet" href="catalog/view/theme/srub/css/fonts.css">
+    
+    <link rel="stylesheet" href="catalog/view/theme/srub/css/slider-pro.css">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    
+    
+    
+    <link rel="stylesheet" href="catalog/view/theme/srub/css/3D-slider.css">
+    
+    <link rel="stylesheet" href="catalog/view/theme/srub/css/main.css">
+    
+    <link rel="stylesheet" href="catalog/view/theme/srub/css/in-page.css">
+    
+    <link rel="stylesheet" href="catalog/view/theme/srub/css/in-page-list.css">
+    
+    <link rel="stylesheet" href="catalog/view/theme/srub/css/price-in.css">
+    
+    <link rel="stylesheet" href="catalog/view/theme/srub/css/contacts.css">
+    
+    <link rel="stylesheet" href="catalog/view/theme/srub/css/projects.css">
+    
+    <link rel="stylesheet" href="catalog/view/theme/srub/css/about.css">
+    
+    <link rel="stylesheet" href="catalog/view/theme/srub/css/projects-in.css">
+    
+    <link rel="stylesheet" href="catalog/view/theme/srub/css/price.css">
+    
+    <link rel="stylesheet" href="catalog/view/theme/srub/css/404.css">
+    
+    <link rel="stylesheet" href="catalog/view/theme/srub/css/search.css">
+    
+    <script type="text/javascript" src="catalog/view/theme/srub/js/modernizr.custom.53451.js"></script>
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    
+    <!--<script src="catalog/view/theme/srub/js/jquery-3.1.0.min.js"></script>-->
+    
+    <script src="catalog/view/javascript/jquery/jquery-2.1.1.min.js" type="text/javascript"></script>
+    
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    
+    <script type="text/javascript" src="catalog/view/theme/srub/js/jquery.gallery.js"></script>
+    
+    <script src="catalog/view/theme/srub/js/scripts.js"></script>
+    
+    
+    
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    
+    <!--[if lt IE 9]>
+    
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    
+    <![endif]-->
+    
+    
+    
+    <!-- OWL-CAROUSEL -->
+    
+    <script src="catalog/view/theme/srub/js/owl-carousel/owl.carousel.min.js"></script>
+    
+    
+    
+    <script src="catalog/view/theme/srub/js/jquery.sliderPro.js"></script>
+    
+    
+    
+    <!--SLICK CAROUSEL -->
+    
+    <script src="catalog/view/theme/srub/js/slick/slick.min.js"></script>
+    
+    <link rel="stylesheet" href="catalog/view/theme/srub/js/slick/slick.css">
+    
+    <link rel="stylesheet" href="catalog/view/theme/srub/js/slick/slick-theme.css">
+    
+    
+    
+    <!-- FANCYBOX -->
+    
+    <link rel="stylesheet" href="catalog/view/theme/srub/js/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+    
+    <script type="text/javascript" src="catalog/view/theme/srub/js/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+    
+    <link rel="stylesheet" href="catalog/view/theme/srub/srub/js/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+    
+    <script type="text/javascript" src="catalog/view/theme/srub/js/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+    
+    <script type="text/javascript" src="catalog/view/theme/srub/js/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+    
+    <link rel="stylesheet" href="catalog/view/theme/srub/js/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+    
+    <script type="text/javascript" src="catalog/view/theme/srub/js/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+    
+    
+    
+    <!-- COLOR BOX -->
+    
+    <script src="catalog/view/theme/srub/js/colorbox/jquery.colorbox-min.js"></script>
+    
+    <script src="catalog/view/theme/srub/js/colorbox/jquery.colorbox.js"></script>
+    
+    <link rel="stylesheet" href="catalog/view/theme/srub/js/colorbox/colorbox.css">
+    
+    <!-- SWYPE -->
+    
+    <script src="catalog/view/theme/srub/js/jquery.touchSwipe.min.js"></script>
+    
+    <script src="catalog/view/theme/srub/js/jquery.touchSwipe.js"></script>
+    
+    
+    
+    
+    
+    <?php foreach ($styles as $style) { ?>
+    
+    <link href="<?php echo $style['href']; ?>" type="text/css" rel="<?php echo $style['rel']; ?>" media="<?php echo $style['media']; ?>" />
+    
+    <?php } ?>
+    
+    <?php foreach ($links as $link) { ?>
+    
+    <link href="<?php echo $link['href']; ?>" rel="<?php echo $link['rel']; ?>" />
+    
+    <?php } ?>
+    
+    <?php foreach ($scripts as $script) { ?>
+    
+    <script src="<?php echo $script; ?>" type="text/javascript"></script>
+    
+    <?php } ?>
+    
+    <?php foreach ($analytics as $analytic) { ?>
+    
+    <?php echo $analytic; ?>
+    
+    <?php } ?>
 
 </head>
 
