@@ -20,15 +20,7 @@
 	<base href="<?php echo $base; ?>" />
 
     <meta name="viewport" content="width=1320">
-    
-    <!--Favicon-->
-    <link rel="apple-touch-icon" sizes="120x120" href="catalog/view/theme/srub/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" href="catalog/view/theme/srub/favicon/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="catalog/view/theme/srub/favicon/favicon-16x16.png" sizes="16x16">
-    <link rel="manifest" href="catalog/view/theme/srub/favicon/manifest.json">
-    <link rel="mask-icon" href="catalog/view/theme/srub/favicon/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="theme-color" content="#ffffff">
-    
+        
     <meta name="format-detection" content="telephone=no">
     
     <?php if ($description) { ?>
