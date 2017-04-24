@@ -193,6 +193,13 @@
     
     <?php } ?>
     
+    <!--FAVICON-->
+    <link rel="apple-touch-icon" sizes="120x120" href="catalog/view/theme/srub/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="catalog/view/theme/srub/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="manifest" href="catalog/view/theme/srub/favicons/manifest.json">
+    <link rel="mask-icon" href="catalog/view/theme/srub/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+    
     <?php foreach ($links as $link) { ?>
     
     <link href="<?php echo $link['href']; ?>" rel="<?php echo $link['rel']; ?>" type="<?php echo $link['type']; ?>" />
