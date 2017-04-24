@@ -38,6 +38,14 @@ class Document {
 			'rel'  => $rel
 		);
 	}
+	
+	public function addFavicons($href, $rel, $type) {
+		$this->links[$href] = array(
+			'href' => $href,
+			'rel'  => $rel,
+			'type' => $type		
+		);
+	}
 
 	public function getLinks() {
 		return $this->links;

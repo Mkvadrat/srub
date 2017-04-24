@@ -21,7 +21,7 @@ class ControllerCommonHeader extends Controller {
 		}
 
 		if (is_file(DIR_IMAGE . $this->config->get('config_icon'))) {
-			$this->document->addLink($server . 'image/' . $this->config->get('config_icon'), 'icon');
+			$this->document->addFavicons($server . 'image/' . $this->config->get('config_icon'), 'icon', 'image/png');
 		}
 
 		$data['title'] = $this->document->getTitle();
