@@ -195,7 +195,7 @@
     
     <?php foreach ($links as $link) { ?>
     
-    <link href="<?php echo $link['href']; ?>" rel="<?php echo $link['rel']; ?>" />
+    <link href="<?php echo $link['href']; ?>" rel="<?php echo $link['rel']; ?>" type="<?php echo $link['type']; ?>" />
     
     <?php } ?>
     
