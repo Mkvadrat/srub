@@ -34,7 +34,7 @@
 						<?php } ?>
 					</div>
 
-					<img src="<? echo $popup; ?>" alt="<?php echo $heading_title; ?>">
+					<img src="<?php echo $popup; ?>" alt="<?php echo $heading_title; ?>">
 
 					<?php echo $description; ?>
 				</div>
