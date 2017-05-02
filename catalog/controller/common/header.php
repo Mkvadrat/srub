@@ -203,10 +203,7 @@ class ControllerCommonHeader extends Controller {
 				);
 			}
 		}
-
-
-
-
+		
 		$data['language'] = $this->load->controller('common/language');
 		$data['currency'] = $this->load->controller('common/currency');
 		$data['search'] = $this->load->controller('common/search');

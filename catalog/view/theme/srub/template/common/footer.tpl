@@ -56,15 +56,7 @@
                     <li><a href="">каркасное строительство<br>деревянных домов</a></li>
                 </ul>-->
 
-                <!--<a href="kubansrub.ru">
-                    <img class="logo-in-footer" src="catalog/view/theme/srub/images/logo-in-footer.png" alt="">
-                </a>-->
-
-                <!--<p>Головное представительство</p>
-
-                <p>ООО “КУБАНЬСТРОЙДОМ”</p>
-
-                <p>kubansrub.ru</p>-->
+				<?php echo $footer_logo; ?>
             </div>
 
             <div class="footer-second-column">

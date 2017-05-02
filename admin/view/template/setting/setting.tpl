@@ -230,7 +230,7 @@
                       <?php } ?>
                   </select></div>
               </div>
-			  <div class="form-group">
+						 <div class="form-group">
                   <label class="col-sm-2 control-label" for="input-layout">Баннер в шапке сайта</label>
                   <div class="col-sm-10">
                     <select name="config_banner_id" id="input-layout" class="form-control">
@@ -241,7 +241,14 @@
                       <option value="<?php echo $banner['banner_id']; ?>"><?php echo $banner['name']; ?></option>
                       <?php } ?>
                       <?php } ?>
-                  </select></div>
+										</select>
+									</div>
+              </div>
+						 	<div class="form-group">
+                <label class="col-sm-2 control-label" for="input-footer">Логотип и описание компании в подвале сайта</label>
+                <div class="col-sm-10">
+                  <textarea name="config_langdata[<?php echo $language['language_id']; ?>][footer_logo]" placeholder="Логотип в подвале сайта" rows="5" id="input-footer<?php echo $language['language_id']; ?>" class="form-control"><?php echo isset($config_langdata[$language['language_id']]) ? $config_langdata[$language['language_id']]['footer_logo'] : ''; ?></textarea>
+								</div>
               </div>
             </div>
             <div class="tab-pane" id="tab-store">
@@ -1189,8 +1196,10 @@
 <?php foreach ($languages as $language) { ?>
 <?php if ($ckeditor) { ?>
 ckeditorInit('input-description<?php echo $language['language_id']; ?>', '<?php echo $token; ?>');
+ckeditorInit('input-footer<?php echo $language['language_id']; ?>', '<?php echo $token; ?>');
 <?php } else { ?>
 $('#input-description<?php echo $language['language_id']; ?>').summernote({height: 300, lang:'<?php echo $lang; ?>'});
+$('#input-footer<?php echo $language['language_id']; ?>').summernote({height: 300, lang:'<?php echo $lang; ?>'});
 <?php } ?>
 <?php } ?>
 //--></script>

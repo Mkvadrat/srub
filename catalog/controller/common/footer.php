@@ -34,7 +34,11 @@ class ControllerCommonFooter extends Controller {
 		$data['partners'] = $this->url->link('information/partners');
 		$data['our_price'] = $this->url->link('information/prices');
 		$data['project_srub'] = $this->url->link('product/category&path=59');
-
+		
+		foreach($this->config->get('config_langdata') as $langdata){
+			$data['footer_logo'] = html_entity_decode($langdata['footer_logo'], ENT_QUOTES, 'UTF-8');
+		}
+		
 		$this->load->model('catalog/information');
 
 		$data['informations'] = array();
