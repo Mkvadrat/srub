@@ -55,8 +55,9 @@
                     <li><a href="">проекты<br>срубов</a></li>
                     <li><a href="">каркасное строительство<br>деревянных домов</a></li>
                 </ul>-->
-
+			<?php if($footer_logo){ ?>
 				<?php echo $footer_logo; ?>
+			<?php } ?>
             </div>
 
             <div class="footer-second-column">
